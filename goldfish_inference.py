@@ -59,3 +59,4 @@ if __name__ == "__main__":
     pred=process_video(processed_video_path, args.add_subtitles, args.question)      
     print("Question answer: ", pred)
     print(f"Time taken for inference: ", time.time()-t2)
+    print('test')
